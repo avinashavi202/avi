@@ -1,0 +1,40 @@
+package demo;
+
+	interface Animal{
+		public void barking();
+	}
+
+	interface Dog {
+		public void play();
+	}
+
+	public class Interface implements Animal,Dog{
+		
+		public void barking() {
+			// TODO Auto-generated method stub
+			System.out.println("Dog is barking...");
+		}
+
+		@Override
+		public void play() {
+			// TODO Auto-generated method stub
+			System.out.println("dog is playing ...");
+		}
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			Interface d = new Interface();
+			d.barking();
+			d.play();
+			
+		}
+
+		@Override
+		public void sleep1() {
+			// TODO Auto-generated method stub
+			
+		}
+	
+		}
+
+
